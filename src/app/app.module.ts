@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { FotosComponent } from './components/fotos/fotos.component';
 import { CargaComponent } from './components/carga/carga.component';
+import { APP_ROUTES } from './app.route';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { CargaComponent } from './components/carga/carga.component';
     CargaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    APP_ROUTES
   ],
   providers: [],
   bootstrap: [AppComponent]
