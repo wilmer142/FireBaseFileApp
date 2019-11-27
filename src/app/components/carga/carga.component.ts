@@ -21,8 +21,8 @@ export class CargaComponent implements OnInit {
     this._cargaImagenesService.cargarImagenes(this.archivos);
   }
 
-  prueba(event) {
-    console.log(event);
+  limpiar() {
+    this.archivos = [];
   }
 
 }
